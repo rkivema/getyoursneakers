@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-Size: 14px;
+}
+
+/* carousel/image slider */
+.carousel-item{
+    height: 100vh;
+    min-height: 100px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-Size: cover;
+}
+
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #ffffff;
+    opacity: 0.7;
+}
+
+.carousel-caption{
+    bottom: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-caption h5{
+    font-size: 90px;
+    color: #000000;
+}
+
+.carousel-caption p{
+    font-size: 20px;
+    top: 2rem;
+    color: #000000;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+.nikepage{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://images.unsplash.com/photo-1524532787116-e70228437bbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80) no-repeat;
+    background-Size: 195vh;
+    background-position: center;
+}
+
+.nikepage .content h3{
+    font-Size: 6rem;
+    color: #333;
+}
+
+.nikepage .content p{
+    font-Size: medium;
+    color: var(--black);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.adidaspage{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://images.unsplash.com/flagged/photo-1556637640-2c80d3201be8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat;
+    background-Size: 195vh;
+    background-position: center;
+}
+
+.adidaspage .content h3{
+    font-size: 6rem;
+    color: #333;
+}
+
+.adidaspage .content p{
+    font-size: medium;
+    color: var(--black);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.conversepage{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://images.unsplash.com/photo-1558422503-0089e0d8b70e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat;
+    background-Size: 195vh;
+    background-position: center;
+}
+
+.conversepage .content h3{
+    font-size: 6rem;
+    color: #333;
+}
+
+.conversepage .content p{
+    font-size: medium;
+    color: var(--black);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.filapage{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://pbs.twimg.com/media/FfFamc1VQAA8TGk?format=jpg&name=large) no-repeat;
+    background-Size: 195vh;
+    background-position: center;
+}
+
+.filapage .content h3{
+    font-size: 6rem;
+    color: #333;
+}
+
+.filapage .content p{
+    font-size: medium;
+    color: var(--black);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.contactuspage{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://images.unsplash.com/photo-1506544777-64cfbe1142df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat;
+    background-Size: 195vh;
+    background-position: center;
+   
+}
+
+
+
+
